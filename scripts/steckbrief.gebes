@@ -1,0 +1,48 @@
+main
+
+ print Press Enter to continue . . .
+ wait for enter
+ call once
+  choose_option
+
+choose_option
+ println
+  What do u want to know?
+   1) data.gebes
+   2) data.vnilla
+   3) data.steve
+  
+ print Choose an option: 
+
+ scan selectedOption
+  
+ if selectedOption
+  equals 1:
+   option_gebes
+  equals 2:
+   option_vnilla
+  equals 3:
+   option_steve
+  else: 
+   choose_option
+
+option_gebes
+ println
+  Name: Gebolus the Great
+  Age: Somewhere between 12 and 69
+  Skills: over 9000
+
+option_vnilla
+ println
+  Name: vnilla cone
+  Age: a common vanilla Age
+  Skills: ok
+
+option_steve 
+ println
+  Name: steve monder
+  Age: one of the oldest
+  Skill: good
+
+ call once
+  choose_option

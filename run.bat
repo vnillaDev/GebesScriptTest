@@ -1,3 +1,5 @@
 @echo off
 
-java -jar GebesScript-1.0.jar
+java -jar GebesScript-1.2.jar ./scripts/steckbrief.gebes
+
+pause
